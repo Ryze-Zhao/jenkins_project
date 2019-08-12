@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class MyController {
     @RequestMapping("/test")
     public String testFunc() {
-        System.out.println("自动构建2=================》testFunc已进入");
-        return "自动构建2=================》testFunc已进入";
+        System.out.println("自动构建2================》testFunc已进入");
+        return "自动构建2================》testFunc已进入";
     }
 }
